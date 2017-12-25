@@ -1,0 +1,53 @@
+(Version 2)
+
+[Before executing the program]
+
+- Make sure to install the latest python3 version onto your system. Technically any python 3.x version should be fine, but install the latest one (3.6.3 as of 11/27/2017) from python.org just to be sure.
+- This program works on Windows, Mac, and Linux machines. Make sure to execute the program on one of the three operating systems.
+- If you are executing the program on anything other than Windows, please comment out line 9 of src/login_windows.py as the winsound import only works on windows at the moment.
+- When asked for a due date when creating a question set, make sure to use the format: "MM/DD/YY h:mmAM" or "MM/DD/YY h:mmPM" (without quotes). eg: 1/01/17 12:00AM
+
+[Setup]
+
+1. Open terminal/cmd (depending on OS) and navigate to the src folder
+2. Type python3 login_windows.py to launch the application.
+3. Select relevant user type to be brought to the appropriate login window.
+4. Existing users can enter their username and password and then click 'Login' to login. New users must first register using a unique username and password before the login will recognize them.
+
+(Students)
+
+Students may select from a list of possible question sets which are present in the question set directory.
+Once selected, a student answers all questions in the set sequentially until the end is reached; at which they are assigned a score.
+Students are not allowed to take questions sets whose due date has passed
+Students are allowed only to take question sets and cannot write or modify them
+
+(Instructors)
+
+Instructors may create new question sets of type multiple choice or text input(currently not runnable by students). They may also specify a due date and number of questions in a set.
+While creating questions in a set, instant feedback may be toggled on and off based on the question.
+At the end of creating all questions for a set a prompt appears to specify the name of the file the set will be saved under. 
+This file will overwrite other files in the directory if they have the same filename.
+
+[Debugging Shortcuts]
+
+As an administrative/debug shortcut, the program is also able to be run directly from
+the question creation menu.
+
+To do this follow the above steps but instead run the file:
+question_type_select.py - To go directly to question set creation
+
+Be aware that this method of running the program is not officially supported and may cause unexpected behaviour.
+
+[Other Useful Information]
+
+Raw Student and Instructor user account information is stored within the respectively named folders.
+Question Sets are stored in a similar manner.
+Be aware that the behaviour of the program is undefined in the case that either of these folders or their subdirectories are modified.
+
+(Version 1)
+
+Note: Because our program technically doesn't have a unified screen for both professors and students, for now you will have to execute different files for the student and professor version of the program.
+
+Student: From the src folder, type python3 student_question_set.py in terminal to execute.
+
+Professor: From the src folder, type python3  question_type_select.py in terminal to execute.
