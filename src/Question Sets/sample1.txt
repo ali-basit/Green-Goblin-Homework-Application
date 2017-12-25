@@ -1,0 +1,23 @@
+3
+11/20/17 11:00PM
+What is this course?
+CSCC01
+CSCC02
+CSCC03
+CSCC43
+CSCC01
+Feedback: None
+Who is the instructor?
+Thierry Sans
+Richard Pancer
+Nick Chan
+Brian Harrington
+Thierry Sans
+Feedback: None
+When is the midterm?
+Oct 27
+Dec 1
+Nov 4
+We Dont have midterm for this course
+Oct 27
+Feedback: None
