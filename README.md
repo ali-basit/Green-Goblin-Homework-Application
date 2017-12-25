@@ -1,5 +1,5 @@
 # Green Goblin Homework Application
-Green Goblin is a desktop/laptop based homework delivery system application.  It allows teachers to create homework sets of different kinds (multiple choice, long answer, parameterized, etc.), and allows students to complete these assignments and receive instantaneous feedback as to the correctness of their responses. It gives the students and teachers many analysis reports regarding progress and other important information.
+#### Green Goblin is a desktop/laptop based homework delivery system application.  It allows teachers to create homework sets of different kinds (multiple choice, long answer, parameterized, etc.), and allows students to complete these assignments and receive instantaneous feedback as to the correctness of their responses. It gives the students and teachers many analysis reports regarding progress and other important information.
 ---
 
 ### VERSION HISTORY
