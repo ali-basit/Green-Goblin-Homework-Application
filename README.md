@@ -6,6 +6,7 @@
 
 |Date|Contents of Commit|Contributors
 ---|---|---
+Dec 25|Reversed order of README.md revision history from old-to-new to new-to-old|Ali Basit
 Dec 24|Updated README.md with program description|Ali Basit
 Nov 27|<ul><li>Updated Week 6 sprint plan following the sprint meeting with the end of week taskboard screenshot</li><li>Updated User Stories and Personas to version 2.2.1</li><li>Updated the Task Breakdown, but version number not incremented because nothing texual was added (mostly spacing and making the document look neat for final deliverable)</li><li>Updated the execution instructions for final deliverable</li></ul>|Entire Team
 Nov 20|Whoops, totally forgot about updating this file. Will do for the last two deliverables (including this one):<ul><li>Updated Week 5 sprint to include post sprint things</li><li>Created Week 6 pre sprint documents</li><li>Uploaded code review meeting video to (youtube or google drive)</li><li>created acceptance tests for testing UI</li><li>Added Code Review Strategy and everyone's written response</li></ul>|Entire Team
